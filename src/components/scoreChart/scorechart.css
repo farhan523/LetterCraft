@@ -1,0 +1,16 @@
+.scoreContainer {
+  width: 344px;
+  /* height: 245px; */
+  border-radius: 10px;
+  border: 1px solid #ebedf0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.chart-score {
+  margin-top: -80px;
+  font-family: "Inter";
+}

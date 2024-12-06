@@ -1,0 +1,86 @@
+.attack-progress-container .heading {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.attack-progress-container {
+  border: 1px solid #ebedf0;
+  background-color: white;
+  border-radius: 10px;
+  width: 57%;
+  padding-bottom: 20px;
+  padding-bottom: 40px;
+}
+
+.attack-progress-container .heading-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  padding: 20px 0 0 20px;
+  /* border: 1px solid #ebedf0; */
+}
+
+.attack-stats {
+  flex: 1 1;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.countdown-container {
+  /* text-align: center; */
+  margin-top: 20px;
+  width: 100%;
+}
+
+.countdown-title {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+
+  margin: 0 0 20px 20px;
+}
+
+.countdown-timer {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.countdown-box {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 80px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-value {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.countdown-label {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b788e;
+  margin: 5px 0 0;
+}
+
+@media screen and (max-width: 999px) {
+  .attack-progress-container {
+    width: 95%;
+  }
+}

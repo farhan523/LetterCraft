@@ -1,0 +1,7 @@
+.detailsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  flex-wrap: wrap;
+}
